@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ain Gold - Follow Us</title>
+  <style>
+    body {
+      font-family: poppins, sans-serif;
+      text-align: center;
+      background: #fff8f0;
+      color: #333;
+      padding: 30px;
+    } 
+    h1 { color: #a67c52; }
+      h1 {
+        font-family: 'Playfair Display', 'Georgia', serif;
+        color: #bfa76a;
+        font-size: 2.2em;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-shadow: 0 2px 8px rgba(191,167,106,0.08);
+        margin-bottom: 18px;
+      }
+    .btn {
+      display: block;
+      margin: 15px auto;
+      padding: 15px 20px;
+      width: 250px;
+      text-decoration: none;
+      background: #977048;
+      color: white;
+      border-radius: 08px;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+    .btn:hover { background: #8b633f; }
+  </style>
+</head>
+<body>
+  <img src="img/logo.png" alt="Ain Gold Logo" style="display:block;margin:0 auto 20px auto;max-width:150px;">
+  <div class="info-section">
+    <div class="phone-website">
+      <a href="tel:+971508609585" class="contact-btn">
+        <span class="contact-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#a67c52">
+            <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21c1.21.49 2.53.76 3.88.76a1 1 0 011 1v3.5a1 1 0 01-1 1C7.61 22 2 16.39 2 9.5a1 1 0 011-1H6.5a1 1 0 011 1c0 1.35.27 2.67.76 3.88a1 1 0 01-.21 1.11l-2.2 2.2z"/>
+          </svg>
+        </span>
+        <span class="contact-text">Contact</span>
+      </a>
+      <span class="divider">|</span>
+      <a href="https://aingold.com" class="main-website" target="_blank">aingold.com</a>
+    </div>
+  </div>
+  <div style="margin-bottom: 20px;">
+    <button id="wholesaleBtn" class="tab-btn active" onclick="showSection('wholesale')">Wholesale</button>
+    <button id="appBtn" class="tab-btn" onclick="showSection('app')">App</button>
+  </div>
+  <div id="wholesaleSection">
+    <h1>Follow Ain Gold Wholesale</h1>
+    <a class="btn" href="https://www.instagram.com/aingold.wholesale?igsh=MXh3N2s1ZHQyMWM1eA==" target="_blank">Instagram</a>
+    <a class="btn" href="https://facebook.com/YOURACCOUNT" target="_blank">Facebook</a>
+    <a class="btn" href="https://www.tiktok.com/@aingold.diamonds?_t=ZS-90DBGr0GBxy&_r=1" target="_blank">TikTok</a>
+    <a class="btn" href="https://youtube.com/@YOURACCOUNT" target="_blank">YouTube</a>
+    <a class="btn" href="https://wa.me/971508609585" target="_blank">WhatsApp</a>
+  </div>
+  <div id="appSection" style="display:none;">
+    <h1>Follow Ain Gold App</h1>
+    <a class="btn" href="https://www.instagram.com/aingold.app?igsh=MXQ0eGtjdmk4eWh5Mw==https://www.instagram.com/aingold.app?igsh=MXQ0eGtjdmk4eWh5Mw==" target="_blank">Instagram</a>
+    <a class="btn" href="https://www.facebook.com/share/19r3fiRKWo/" target="_blank">Facebook</a>
+    <a class="btn" href="https://www.tiktok.com/@aingold.diamonds?_t=ZS-90DBGr0GBxy&_r=1" target="_blank">TikTok</a>
+    <a class="btn" href="https://youtube.com/@APPACCOUNT" target="_blank">YouTube</a>
+    <a class="btn" href="https://wa.me/971508609585" target="_blank">WhatsApp</a>
+    <a class="app-download" href="https://aingold.com/app-download" target="_blank">
+      <span class="app-download-icon">
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+          <rect x="3" y="3" width="16" height="16" rx="4" fill="#fff" stroke="#a67c52" stroke-width="1.5"/>
+          <path d="M11 7v5m0 0l-2-2m2 2l2-2" stroke="#a67c52" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      <span class="app-download-text">Download Ain Gold App</span>
+    </a>
+  </div>
+  <style>
+    .info-section {
+      margin-bottom: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .phone-website {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(166,124,82,0.08);
+      padding: 12px 32px;
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      font-size: 14px;
+    }
+    .phone-label {
+      color: #a67c52;
+      font-weight: 600;
+      margin-right: 6px;
+    }
+    .contact-btn {
+      display: inline-flex;
+      align-items: center;
+      background: #fff;
+      border: none;
+      color: #a67c52;
+      border-radius: 8px;
+      padding: 6px 16px 6px 10px;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 2px 8px rgba(166,124,82,0.08);
+      transition: background 0.2s, color 0.2s;
+      margin-right: 8px;
+      gap: 7px;
+    }
+    .contact-btn:hover {
+      background: #f7e7d3;
+      color: #8b633f;
+    }
+    .contact-icon {
+      display: flex;
+      align-items: center;
+      margin-right: 4px;
+    }
+    .contact-text {
+      font-weight: 600;
+      font-size: 14px;
+      letter-spacing: 0.2px;
+    }
+    .divider {
+      color: #a67c52;
+      font-size: 20px;
+      font-weight: 700;
+      margin: 0 8px;
+    }
+    .main-website {
+      color: #a67c52;
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 18px;
+      transition: text-decoration 0.2s, color 0.2s;
+    }
+    .main-website:hover {
+      text-decoration: underline;
+      color: #8b633f;
+    }
+    .tab-btn {
+      padding: 10px 0;
+      margin-right: 10px;
+      border-radius: 8px;
+      border: 2px solid #a67c52;
+      background: transparent;
+      color: #a67c52;
+      font-size: 16px;
+      cursor: pointer;
+      outline: none;
+      transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+      font-weight: 600;
+      width: 160px;
+      min-width: 160px;
+      box-sizing: border-box;
+      display: inline-block;
+      text-align: center;
+    }
+    .tab-btn.active {
+      background: #a67c52;
+      color: #fff;
+      box-shadow: 0 2px 8px rgba(166,124,82,0.15);
+      border-color: #a67c52;
+    }
+    .app-download {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 18px auto 0 auto;
+      padding: 14px 28px;
+      width: 260px;
+      background: #fff;
+      color: #a67c52;
+      border-radius: 14px;
+      font-size: 18px;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 2px 8px rgba(166,124,82,0.08);
+      border: 1.5px solid #a67c52;
+      transition: background 0.2s, color 0.2s, box-shadow 0.2s, border-color 0.2s;
+      gap: 10px;
+    }
+    .app-download:hover {
+      background: #f7e7d3;
+      color: #8b633f;
+      box-shadow: 0 4px 16px rgba(166,124,82,0.13);
+      border-color: #8b633f;
+    }
+    .app-download-icon {
+      display: flex;
+      align-items: center;
+      margin-right: 6px;
+    }
+    .app-download-text {
+      display: flex;
+      align-items: center;
+      font-weight: 600;
+      font-size: 18px;
+      letter-spacing: 0.2px;
+    }
+  </style>
+  <script>
+    function showSection(section) {
+      document.getElementById('wholesaleSection').style.display = section === 'wholesale' ? 'block' : 'none';
+      document.getElementById('appSection').style.display = section === 'app' ? 'block' : 'none';
+      document.getElementById('wholesaleBtn').classList.toggle('active', section === 'wholesale');
+      document.getElementById('appBtn').classList.toggle('active', section === 'app');
+    }
+  </script>
+</body>
+</html>
